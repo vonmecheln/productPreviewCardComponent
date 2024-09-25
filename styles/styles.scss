@@ -1,7 +1,9 @@
 @import 'variables';
+@import 'animations';
+
 
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
     font-family: $body_font_family;
@@ -29,7 +31,7 @@ body {
                 border-radius: 10px 0px 0px 10px;
                 width: 300px;
                 height: 446px;
-            } 
+            }
         }
 
         .text_area {
